@@ -31,6 +31,8 @@ The product is organised around three operating layers:
   (stakeholders, regulatory blockers, deal mechanics)
 - **Customer Portfolio** — account-level deep dives
 
+![Next Best Action detail — Westpac renewal](./screenshots/04-nba-detail.png)
+
 **Account Growth — the strategic layer**
 - **Account Plans** — structured account strategy
 - **Stakeholder Maps** — buying-committee and detractor/champion mapping
@@ -40,11 +42,15 @@ The product is organised around three operating layers:
   expansion opportunity, and next-quarter action plan. Regenerate is surfaced as a
   first-class action
 
+![Strategic Account Plan — Westpac](./screenshots/06-account-plan.png)
+
 **Product Intelligence — the feedback layer**
 - **Product Feedback Loop** — AI clusters customer friction by theme (Missing Feature, UX,
   Performance, Pricing, Integration, Security), computes ARR-weighted priority scores from
   issue ARR × reach × severity, and surfaces themes via an Impact-vs-Reach matrix for
   product prioritisation
+
+![Product Feedback Intelligence](./screenshots/10-product-feedback.png)
 
 ## What it demonstrates
 

@@ -35,10 +35,16 @@ The product is organised around three operating layers:
 - **Account Plans** — structured account strategy
 - **Stakeholder Maps** — buying-committee and detractor/champion mapping
 - **Expansion Pipeline** — in-year expansion tracking
-- **QBR Generator** — [TODO: confirm AI feature behind this]
+- **QBR Generator** — AI generates executive-ready Quarterly Business Reviews from account
+  data: executive summary, adoption progress, business value delivered, risks & mitigations,
+  expansion opportunity, and next-quarter action plan. Regenerate is surfaced as a
+  first-class action
 
 **Product Intelligence — the feedback layer**
-- **Product Feedback Loop** — [TODO: confirm what this does]
+- **Product Feedback Loop** — AI clusters customer friction by theme (Missing Feature, UX,
+  Performance, Pricing, Integration, Security), computes ARR-weighted priority scores from
+  issue ARR × reach × severity, and surfaces themes via an Impact-vs-Reach matrix for
+  product prioritisation
 
 ## What it demonstrates
 
@@ -49,8 +55,9 @@ This project is intended to prove four things at once:
    portfolios at Salesforce/Tableau
 2. **Multi-vertical fluency** — 8 modelled accounts span banking (Westpac), pharma (Novartis),
    industrial (Siemens, Hexion), healthcare (Medibank), telecom (Telstra), and retail (Target)
-3. **AI-native product thinking** — [TODO: confirm AI features — Claude API? Replit Agent?
-   What model powers QBR generation, NBA prioritisation, stakeholder briefs?]
+3. **AI-native product thinking** — Replit AI / Replit Agent powers QBR generation, Next
+   Best Action prioritisation, and product feedback clustering; the app demonstrates how
+   AI generation fits naturally into post-sale workflows rather than being bolted on
 4. **Builder velocity** — built end-to-end on Replit without an engineering team
 
 ## Modelled portfolio at a glance
@@ -69,7 +76,7 @@ This project is intended to prove four things at once:
 | Layer | Choice |
 |---|---|
 | Build platform | Replit |
-| AI | [TODO: confirm — Claude? OpenAI? Both?] |
+| AI | Replit AI / Replit Agent |
 | Data | Synthetic — all account names, financials, stakeholder details are fictional |
 
 ## What's next
